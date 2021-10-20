@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "siteand-wf-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/siteandWf/SiteandWfWebPart.js",
+          "manifest": "./src/webparts/siteandWf/SiteandWfWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SiteandWfWebPartStrings": "lib/webparts/siteandWf/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "azure-funtion-apps-client-side-solution",
+    "id": "edda244a-9d60-4ba8-8570-0af38d937e88",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/azure-funtion-apps.sppkg"
+  }
+}

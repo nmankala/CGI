@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "azurewebjobs-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/azurewebjobs/AzurewebjobsWebPart.js",
+          "manifest": "./src/webparts/azurewebjobs/AzurewebjobsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AzurewebjobsWebPartStrings": "lib/webparts/azurewebjobs/loc/{locale}.js"
+  }
+}

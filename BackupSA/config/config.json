@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "site-access-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/siteAccess/SiteAccessWebPart.js",
+          "manifest": "./src/webparts/siteAccess/SiteAccessWebPart.manifest.json"
+        }
+      ]
+    },
+    "screening-test-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/screeningTest/ScreeningTestWebPart.js",
+          "manifest": "./src/webparts/screeningTest/ScreeningTestWebPart.manifest.json"
+        }
+      ]
+    },
+    "landing-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/landingPage/LandingPageWebPart.js",
+          "manifest": "./src/webparts/landingPage/LandingPageWebPart.manifest.json"
+        }
+      ]
+    },
+    "edit-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/editPage/EditPageWebPart.js",
+          "manifest": "./src/webparts/editPage/EditPageWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SiteAccessWebPartStrings": "lib/webparts/siteAccess/loc/{locale}.js",
+    "ScreeningTestWebPartStrings": "lib/webparts/screeningTest/loc/{locale}.js",
+    "LandingPageWebPartStrings": "lib/webparts/landingPage/loc/{locale}.js",
+    "EditPageWebPartStrings": "lib/webparts/editPage/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

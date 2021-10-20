@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "office-fabric-client-side-solution",
+    "id": "9c8f0e19-5414-447b-b408-a3cc776be5aa",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/office-fabric.sppkg"
+  }
+}
